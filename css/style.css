@@ -38,6 +38,7 @@
   float: left;
 }
 
-#onpage {
+#onpage a{
   text-decoration: underline overline;
 }
+
