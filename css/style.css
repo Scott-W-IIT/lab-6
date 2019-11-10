@@ -1,0 +1,24 @@
+#main-navbar {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+  float: left;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: .2em solid orange;
+}
+
+#navbar-container {
+	position: relative;
+	left: 50%;
+	float: left;
+}
+
+#onpage {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
