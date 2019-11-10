@@ -27,18 +27,46 @@
 
 #navbar-container a {
   float: left;
-  text-decoration: none;
   padding: 10px 20px;
   color: #fff;
+  text-decoration: none;
 }
 
 #navbar-container a:hover {
   background-color: #000;
   display: block;
   float: left;
+  text-decoration: overline underline;
 }
 
-#onpage a{
+#onpage a {
   text-decoration: underline overline;
 }
+
+#sidebar {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: #000;
+  right: 0%;
+}
+
+#sidebar-container ul {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 0;
+  list-style-type: none;
+  background-color: red;
+}
+
+#sidebar-container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#sidebar a:hover {
+  color: #000;
+}
+
 
